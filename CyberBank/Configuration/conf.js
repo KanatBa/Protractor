@@ -4,7 +4,11 @@ exports.config = {
     //address of our selenium server    
     //seleniumAddress: 'http://localhost:4444/wd/hub',
     directConnect: true,
-    capabilities: {'browserName': 'chrome'},
+    multiCapabilities: [{
+      'browserName': 'chrome'
+    }, {
+      'browserName': 'firefox'
+    }],
     
     specs: ['../Tests/test1.js'],
     

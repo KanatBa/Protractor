@@ -94,7 +94,7 @@ describe('Login',()=>{
     it('Should require Zip Code',()=>{
         accessToAddCustomer();
         BankManager.addButton.click();
-        expect(BankManager.addCustomerAttr('postCd')).toBe("tru");
+        expect(BankManager.addCustomerAttr('postCd')).toBe("true");
     })
     it('Should Add Customer',()=>{
         

@@ -10,7 +10,7 @@ exports.config = {
     }],
     suites: {
     specs: ['../Tests/test1.js'],
-    smoke:['demo.js']
+    //smoke:['demo.js']
     },
     framework: 'jasmine2',
     onPrepare: function(){

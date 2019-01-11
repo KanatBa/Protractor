@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1547002016436' stop='1547002050809'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1547002016437' status='passed' stop='1547002020486'>
+            <name>should have correct page title</name>
+            <title>should have correct page title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002020486' status='passed' stop='1547002021975'>
+            <name>should verify Home Button is Displayed</name>
+            <title>should verify Home Button is Displayed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002021975' status='passed' stop='1547002023395'>
+            <name>Should verify Page Header</name>
+            <title>Should verify Page Header</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002023395' status='passed' stop='1547002025210'>
+            <name>should check Bank Manager button text</name>
+            <title>should check Bank Manager button text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002025210' status='passed' stop='1547002026661'>
+            <name>should check Bank Manager Login button displayed</name>
+            <title>should check Bank Manager Login button displayed</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002026661' status='passed' stop='1547002028146'>
+            <name>should check Bank Manager Login button displayed and check text by ngClick</name>
+            <title>should check Bank Manager Login button displayed and check text by ngClick</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002028146' status='passed' stop='1547002030034'>
+            <name>should stay when click home page</name>
+            <title>should stay when click home page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002030034' status='passed' stop='1547002034462'>
+            <name>should display options for manager</name>
+            <title>should display options for manager</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002034462' status='passed' stop='1547002036317'>
+            <name>should display form for Adding Customer</name>
+            <title>should display form for Adding Customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002036317' status='passed' stop='1547002038131'>
+            <name>Should list first name in the form</name>
+            <title>Should list first name in the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002038131' status='passed' stop='1547002039932'>
+            <name>Should list First Name label in the form</name>
+            <title>Should list First Name label in the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002039932' status='passed' stop='1547002041726'>
+            <name>Should list Last Name label in the form</name>
+            <title>Should list Last Name label in the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002041726' status='passed' stop='1547002043405'>
+            <name>Should list ZipCode label in the form</name>
+            <title>Should list ZipCode label in the form</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002043405' status='passed' stop='1547002045483'>
+            <name>Should require First Name</name>
+            <title>Should require First Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002045483' status='passed' stop='1547002047555'>
+            <name>Should require Last Name</name>
+            <title>Should require Last Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002047555' status='passed' stop='1547002049219'>
+            <name>Should require Zip Code</name>
+            <title>Should require Zip Code</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1547002049219' status='passed' stop='1547002050807'>
+            <name>Should Add Customer</name>
+            <title>Should Add Customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

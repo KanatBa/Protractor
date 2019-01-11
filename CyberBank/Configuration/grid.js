@@ -1,17 +1,22 @@
 let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
-   
-    directConnect: true,
-    multiCapabilities: [{
-      'browserName': 'chrome'
-    }, {
-      'browserName': 'firefox'
-    }],
-    suites: {
-    specs: ['../Tests/test1.js'],
-    smoke:['demo.js']
+    SeleniumAddress: "http://192.168.254.74:4444/wd/hub",
+    //directConnect: true,
+    // multiCapabilities: [{
+    //   'browserName': 'chrome'
+    // }, {
+    //   'browserName': 'firefox'
+    // }],
+    capabilities:{
+        "browserName":"chrome"
+        
     },
+    suites: {
+   specs: ['../Tests/test1.js'],
+    //smoke:['demo.js']
+    },
+
     framework: 'jasmine2',
     onPrepare: function(){
         browser.manage().window().maximize();

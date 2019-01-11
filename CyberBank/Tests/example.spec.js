@@ -1,7 +1,8 @@
+var Base=require('../Utilities/base.js')
 describe('Example project',()=>{
     beforeAll(function(){
         browser.waitForAngularEnabled(false);
-        browser.get("https://www.google.com/");
+        browser.get(Base.homeUrl);
         browser.manage().timeouts().implicitlyWait(10000);  
         
         })
